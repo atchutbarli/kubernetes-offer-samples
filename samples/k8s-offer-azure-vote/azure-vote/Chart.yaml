@@ -1,4 +1,4 @@
 apiVersion: v2
-description: A Helm chart for Kubernetes
-name: azure-vote
+description: A Helm chart for Azure Vote application for Kubernetes
+name: k8s-offer-azure-vote
 version: 1.0.1

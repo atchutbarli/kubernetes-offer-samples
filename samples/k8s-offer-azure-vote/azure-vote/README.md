@@ -1,6 +1,6 @@
 # azure-vote
 
-The Azure Vote application is a simple sample used throughout the Azure Container Service (AKS) documentation. The application consists of two pods, one running a flask web form, and the second a redis instance for temporary data storage.
+The Azure Vote application is a simple sample used throughout the Azure Marketplace Kubernetes Applications offer( Under Azure Container offer category) documentation. The application consists of two pods, one running a flask web form, and the second a redis instance for temporary data storage.
 
 ## Installing the Chart
 
@@ -13,7 +13,7 @@ helm repo add azure-samples https://azure-samples.github.io/helm-charts/
 Install the chart.
 
 ```
-helm install azure-samples/azure-vote
+helm install azure-samples/k8s-offer-azure-vote
 ```
 
 
