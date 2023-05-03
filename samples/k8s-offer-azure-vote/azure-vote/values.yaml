@@ -1,7 +1,7 @@
 # Azure Vote UI control
 title: "Azure Vote App"
-value1: Cats
-value2: Dogs
+value1: ladies
+value2: gentlemen
 global:
   azure:
     images:
@@ -10,7 +10,7 @@ global:
         image: azure-vote-front
         registry: azurek8ssamples.azurecr.io/marketplaceimages
       backend:
-        digest: sha256:87583c95fd2253658fdd12e765addbd2126879af86a90b34efc09457486b21b1
+        digest: sha256:f6e3da94f24dabc9569204c774cd7d11ab6eaa3865b108ae07694161251c854c
         image: azure-vote-back
         registry: azurek8ssamples.azurecr.io/marketplaceimages
 # how many frontends do we want?
